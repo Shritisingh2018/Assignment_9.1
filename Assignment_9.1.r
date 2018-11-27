@@ -84,11 +84,11 @@ chisq.test(table(test$classe), prop.table(table(pred_rf_grid)))       # pv = 0.2
 # occured during the activity
 
 # error (target) detection was done by classifying an 
-# execution to one of the mistake classes
+# execution to one of the mistaken classes
 
 # we could detect mistakes fairly accurately
 
-# Gradient bossting model is most accurate with less number of predictors 
+# Gradient boosting model is most accurate with less number of predictors 
 # Model is good fit and the Accuracy is 1
 
 plot <- plot(conf_rf_grid$table, col = topo.colors(6))
